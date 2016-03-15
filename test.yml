@@ -1,0 +1,20 @@
+---
+- file: 
+    path: "/opt/newfile.txt"
+    owner: "user"
+    group: "user"
+    mode: "0755" 
+
+- file:
+    path: "/home/anothernewfile.txt"
+    owner: "root"
+    group: "root"
+    mode: "0644" 
+
+- user:
+    name: "newuser"
+    group: "newuser"
+    uid: "1964"
+    passwd: "Watermelons123"
+ 
+        

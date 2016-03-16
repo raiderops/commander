@@ -1,16 +1,19 @@
 ---
+# Example of creating a file
 - file: 
     path: "/opt/newfile.txt"
     owner: "user"
     group: "user"
     mode: "0755" 
 
+# Another example of creating a file
 - file:
     path: "/home/anothernewfile.txt"
     owner: "root"
     group: "root"
     mode: "0644" 
 
+# Example of creating a new user
 - user:
     name: "newuser"
     group: "newuser"
